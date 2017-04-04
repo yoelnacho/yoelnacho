@@ -26,10 +26,17 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## gh-pages
+## angular-cli-ghpages
 
 ```sh
-npm install --save-dev angular-cli-github-pages
+npm i -g angular-cli-ghpages
 ```
-`ng github-pages:deploy`
-[angular-cli-github-pages](https://www.npmjs.com/package/angular-cli-github-pages).
+```sh
+// Usage:
+ng build --prod --base-href "https://yoelnacho.github.io/yoelnacho/"
+angular-cli-ghpages
+
+// After create dist folder, the console will be waiting in angular-cli-ghpages command, press enter to finish.
+```
+
+[readme ghpages](https://runkit.com/npm/angular-cli-ghpages).
