@@ -1,3 +1,8 @@
-<h1>
-  {{title}}
-</h1>
+<div *ngIf="title; then si else no"></div>
+
+<ng-template #si>
+    <h1>{{ title }}</h1>
+</ng-template>
+<ng-template #no>
+    <h1>no hay título</h1>
+</ng-template>
