@@ -7,15 +7,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## angular-cli-ghpages
 
+#### Install:
 ```sh
 npm i -g angular-cli-ghpages
 ```
+#### Usage:
 ```sh
-// Usage:
-ng build --prod --base-href "https://yoelnacho.github.io/yoelnacho/"
-angular-cli-ghpages
-
-// After create dist folder, the console will be waiting in angular-cli-ghpages command, press enter to finish.
+$ ng build --prod --base-href "https://yoelnacho.github.io/yoelnacho/"
+$ angular-cli-ghpages
 ```
 
 [readme ghpages](https://runkit.com/npm/angular-cli-ghpages).
